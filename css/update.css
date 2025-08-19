@@ -1,0 +1,102 @@
+/* PARALLAX EFFECT */
+body {
+    background-image: url('bg.jpg');
+    background-attachment: fixed; /* Parallax */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* RESPONSIVE SECTION */
+@media (max-width: 1024px) {
+    .hero {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .sebelahKiri,
+    .sebelahKanan {
+        width: 90%;
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .sambutan {
+        font-size: 2.5rem;
+        margin: 2rem 1rem;
+    }
+
+    .containerSub {
+        width: 90%;
+        margin: 1rem auto;
+        font-size: 0.95rem;
+    }
+
+    .btnH {
+        transform: none;
+        margin: 1rem auto;
+    }
+
+    .boximg {
+        margin: 1rem auto;
+        transform: none;
+    }
+
+    .kosongan {
+        transform: none;
+        font-size: 1.2rem;
+    }
+
+    .nama {
+        position: static;
+        transform: none;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 1rem;
+    }
+
+    .sosmed {
+        position: static;
+        transform: none;
+        margin-top: 1rem;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .navlink {
+        width: 90%;
+        flex-wrap: wrap;
+        padding: 0.5rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .sambutan {
+        font-size: 2rem;
+    }
+
+    .containerSub {
+        font-size: 0.85rem;
+    }
+
+    .btnH,
+    .btnimg {
+        width: 80%;
+        font-size: 0.9rem;
+    }
+
+    img {
+        width: 120px;
+        height: 120px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .subjudul {
+        font-size: 0.8rem;
+    }
+}

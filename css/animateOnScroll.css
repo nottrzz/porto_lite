@@ -1,0 +1,95 @@
+@keyframes scroll{
+    from{
+        opacity: 0;
+        scale: 0.5;
+        transform: translateY(-200px);
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+        transform: translateY(0px);
+    }
+}
+
+.block{
+    animation: scroll .5s linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+@keyframes scrollRotate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.scrollRotate{
+    opacity: 30%;
+    transform: rotate(0deg) scale(0.9);
+    animation: scrollRotate .5s ease-out forwards;
+    animation-delay: 0.2s;
+    /* Jalankan animasi hanya saat elemen terlihat */
+    animation-timeline: view();
+    animation-range: entry 0% cover 100%;
+}
+
+
+@keyframes scrolleft{
+    from{
+        transform: translateX(-400px);
+        scale: 0.5;
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+        transform: translateX(0px);
+    }
+}
+
+.scrolleft{
+    animation: scrolleft .5s ease-out;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+@keyframes right{
+    from{
+        transform: translateX(400px);
+        scale: 0.5;
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+        transform: translateX(0px);
+    }
+}
+
+.right{
+    animation: right .5s ease-out;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
+}
+
+@keyframes topsc{
+    from{
+        opacity: 0;
+        transform: translateY(-200rem);
+        z-index: -12;
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+        z-index: 1;
+    }
+}
+
+.topsc{
+    animation: scroll .5s linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 50%;
+}
