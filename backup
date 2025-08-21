@@ -1,0 +1,284 @@
+<div class="profile-pages container-fluid" id="prof">
+        <img class=" svg-profile scrollRotate " src="./asset/genetic-data-svgrepo-com.svg" alt="">
+    <div class="container profile-top topsc">
+        <h1>My Web Dev Journey</h1>
+        <p>Halo! Saya adalah seorang pelajar yang memiliki ketertarikan dalam pengembangan website statis. Melalui portofolio ini, saya ingin menampilkan skill yang telah saya pelajari dengan fokus pada tampilan yang rapi, responsif, dan user-friendly. Saya terus berusaha belajar dan berkembang dalam dunia desain web untuk meningkatkan kemampuan saya ke depannya.</p>
+    </div>
+    <div class="container profile-bottom" >
+        <div class="container-top-profile scrolleft">
+            <!-- card area -->
+            <div class="card card-top-profile">
+                <img src="https://a.top4top.io/p_3509bk7hg1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <div class="card-title">Sistem Aplikasi Pembayaran Spp</div>
+                    <p class="card-text">Aplikasi ini merupakan sistem berbasis web untuk mengelola pembayaran SPP siswa secara efektif, transparan, dan terintegrasi. Dibangun menggunakan PHP (Native/Framework sesuai implementasi), MySQL sebagai database, serta HTML, CSS, dan JavaScript untuk tampilan antarmuka yang responsif.</p>
+                </div>
+            </div>
+            <!-- 1 -->
+            <div class="card card-top-profile">
+                <img src="https://idwebhost.com/blog/wp-content/webp-express/webp-images/doc-root/blog/wp-content/uploads/2018/11/Foto-Terbaik-Untuk-Website-01.jpg.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <div class="card-title">HAHA HHI</div>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+            <!-- 2 -->
+            <div class="card card-top-profile">
+                <img src="https://idwebhost.com/blog/wp-content/webp-express/webp-images/doc-root/blog/wp-content/uploads/2018/11/Foto-Terbaik-Untuk-Website-01.jpg.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <div class="card-title">My first website</div>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+            
+        </div>
+        <div class="container-bottom-profile right">
+            <div class="card card-skills">
+                <div class="card-title text-center center-title">PHP</div>
+                <div class="card-body card-body-skills">
+                        <div class="card-title-skills">80%</div>
+                </div>
+            </div>
+
+                <div class="card card-skills">
+                <div class="card-title text-center center-title">JAVASCRIPT</div>
+                <div class="card-body card-body-skills">
+                        <div class="card-title-skills">70%</div>
+                </div>
+            </div>
+
+                <div class="card card-skills">
+                <div class="card-title text-center center-title">Laravel</div>
+                <div class="card-body card-body-skills">
+                        <div class="card-title-skills">40%</div>
+                </div>
+            </div>
+
+                <div class="card card-skills">
+                <div class="card-title text-center center-title">React js</div>
+                <div class="card-body card-body-skills">
+                        <div class="card-title-skills">40%</div>
+                </div>
+            </div>
+
+                <div class="card card-skills">
+                <div class="card-title text-center center-title">React Native</div>
+                <div class="card-body card-body-skills">
+                        <div class="card-title-skills">60%</div>
+                </div>
+            </div>
+            <!-- <div class="box-1 ">
+                <img src="https://cdn3d.iconscout.com/3d/premium/thumb/php-file-3d-icon-download-in-png-blend-fbx-gltf-formats--format-extension-blue-folders-pack-files-icons-10227490.png?f=webp 1x, https://cdn3d.iconscout.com/3d/premium/thumb/php-file-3d-icon-download-in-png-blend-fbx-gltf-formats--format-extension-blue-folders-pack-files-icons-10227490.png?f=webp 2x" alt="">
+            </div> -->
+        </div>
+    </div>
+</div>
+
+<div class="videos-pages container-fluid vh-100 bg-dark">
+    <video class="bg-vide" autoplay muted loop playsinline>
+        <source src="./asset/bg-video.webm" type="video/mp4">
+        browsermuu tidak dapat menggunakan sepenuhnya fitur website ini
+    </video>
+    <div class="container overflow-auto block" id="vid">
+        <div class="card card-vid bg-dark " style="width: 380px;">
+        <!-- <img src="./asset/qrcode.jpg" class="card-img-top" alt="..."> -->
+        <iframe width="380" height="200"  src="https://www.youtube.com/embed/4fdqx7gEUDs?si=zLYYrcZEUeoROrvf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="card-body">
+            <div class="card-title" style="font-weight: 800;color: rgb(230, 229, 229); font-size: 1.4rem;display: flex;align-items: center;justify-content: flex-start;gap: 30px;">
+                <div style="width: 40px; height: 40px; border-radius: 40px; background-color: gray;"></div>
+                Title my videos</div>
+            <p class="card-text " style="color: gray;">chybenk ofc</p>
+            <p class="card-text " style="color: gray;">4M views</p>
+        </div>
+        </div>
+        <div class="card card-vid bg-dark" style="width: 380px;">
+        <!-- <img src="./asset/qrcode.jpg" class="card-img-top" alt="..."> -->
+        <iframe width="380" height="200"  src="https://www.youtube.com/embed/4fdqx7gEUDs?si=zLYYrcZEUeoROrvf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="card-body">
+            <div class="card-title" style="font-weight: 800;color: rgb(230, 229, 229); font-size: 1.4rem;display: flex;align-items: center;justify-content: flex-start;gap: 30px;">
+                <div style="width: 40px; height: 40px; border-radius: 40px; background-color: gray;"></div>
+                Title my videos</div>
+            <p class="card-text " style="color: gray;">chybenk ofc</p>
+            <p class="card-text " style="color: gray;">4M views</p>
+        </div>
+        </div>
+        <div class="card card-vid bg-dark" style="width: 380px;">
+        <!-- <img src="./asset/qrcode.jpg" class="card-img-top" alt="..."> -->
+        <iframe width="380" height="200"  src="https://www.youtube.com/embed/4fdqx7gEUDs?si=zLYYrcZEUeoROrvf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="card-body">
+            <div class="card-title" style="font-weight: 800;color: rgb(230, 229, 229); font-size: 1.4rem;display: flex;align-items: center;justify-content: flex-start;gap: 30px;">
+                <div style="width: 40px; height: 40px; border-radius: 40px; background-color: gray;"></div>
+                Title my videos</div>
+            <p class="card-text " style="color: gray;">chybenk ofc</p>
+            <p class="card-text " style="color: gray;">4M views</p>
+        </div>
+        </div>
+        <div class="card card-vid bg-dark" style="width: 380px;">
+        <!-- <img src="./asset/qrcode.jpg" class="card-img-top" alt="..."> -->
+        <iframe width="380" height="200"  src="https://www.youtube.com/embed/4fdqx7gEUDs?si=zLYYrcZEUeoROrvf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="card-body">
+            <div class="card-title" style="font-weight: 800;color: rgb(230, 229, 229); font-size: 1.4rem;display: flex;align-items: center;justify-content: flex-start;gap: 30px;">
+                <div style="width: 40px; height: 40px; border-radius: 40px; background-color: gray;"></div>
+                Title my videos</div>
+            <p class="card-text " style="color: gray;">chybenk ofc</p>
+            <p class="card-text " style="color: gray;">4M views</p>
+        </div>
+        </div>
+        <div class="card card-vid bg-dark" style="width: 380px;">
+        <!-- <img src="./asset/qrcode.jpg" class="card-img-top" alt="..."> -->
+        <iframe width="380" height="200"  src="https://www.youtube.com/embed/4fdqx7gEUDs?si=zLYYrcZEUeoROrvf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="card-body">
+            <div class="card-title" style="font-weight: 800;color: rgb(230, 229, 229); font-size: 1.4rem;display: flex;align-items: center;justify-content: flex-start;gap: 30px;">
+                <div style="width: 40px; height: 40px; border-radius: 40px; background-color: gray;"></div>
+                Title my videos</div>
+            <p class="card-text " style="color: gray;">chybenk ofc</p>
+            <p class="card-text " style="color: gray;">4M views</p>
+        </div>
+        </div>
+        <div class="card card-vid bg-dark" style="width: 380px;">
+        <!-- <img src="./asset/qrcode.jpg" class="card-img-top" alt="..."> -->
+        <iframe width="380" height="200"  src="https://www.youtube.com/embed/4fdqx7gEUDs?si=zLYYrcZEUeoROrvf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="card-body">
+            <div class="card-title" style="font-weight: 800;color: rgb(230, 229, 229); font-size: 1.4rem;display: flex;align-items: center;justify-content: flex-start;gap: 30px;">
+                <div style="width: 40px; height: 40px; border-radius: 40px; background-color: gray;"></div>
+                Title my videos</div>
+            <p class="card-text " style="color: gray;">chybenk ofc</p>
+            <p class="card-text " style="color: gray;">4M views</p>
+        </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid article-pages" id="article">
+    <div class="container" >
+        <div class="card mb-3 block" style="box-shadow: 0 0 3px white; width: 450px; height: 100%;color: aliceblue; background-color: rgb(21, 21, 21);">
+        <img src="https://akcdn.detik.net.id/community/media/visual/2015/12/10/54b05d11-c94d-4bb9-b0e2-0271766c9b4c_169.jpg?w=700&q=90" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Korban Piama Lisa Mariana Diduga Lebih dari 1 Orang</h5>
+            <p class="card-text">"Rencananya hari ini kalau gak gitu besok ke Polrestabes Surabaya. Maksimal besok," tegasnya</p>
+            <p class="card-text"><small  style="color: white;" class="text-muted">Last updated 3 mins ago</small></p>
+            <p class="card-text" style="color: rgb(228, 222, 222);;"><small class="text-muted">Last see 1 mins ago</small></p>
+        </div>
+        </div>
+
+        <div class="overflow-auto block" style="width: 800px; height: 100%;background-color: transparent; box-shadow: 0 0 4px white;">
+            <div class="card mb-3" style="max-width: 799px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                <img src="./asset/qrcode.jpg" height="50px" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+                </div>
+            </div>
+            </div>
+            <div class="card mb-3" style="max-width: 799px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                <img src="./asset/qrcode.jpg" height="50px" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+                </div>
+            </div>
+            </div>
+            <div class="card mb-3" style="max-width: 799px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                <img src="./asset/qrcode.jpg" height="50px" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+                </div>
+            </div>
+            </div>
+            <div class="card mb-3" style="max-width: 799px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                <img src="./asset/qrcode.jpg" height="50px" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- contact code -->
+ <section class="contact container-fluid vh-100">
+    <div class="container cont-contact" >
+        <div class="container-top-cont " id="contk">
+            <h1>Contact Me!</h1>
+            <p>Hubungi saya melalui form yang tertera di bawah ini atau bisa langsung pergi ke sosial media saya😊</p>
+        </div>
+        <!-- <div class="forms"> -->
+            <div class="container cont1 block">
+                <div class="cont1-top">
+                    <h1>Alternative medsos</h1>
+                    <p>atau bisa menghubungi saya lewat beberapa media sosial saya seperti di bawah ini</p>
+                </div>
+                <div class="cont1-content">
+                    <div class="item">
+                        <a href="#"><i class="bi bi-github"></i></a>
+                        <h1>Github</h1>
+                    </div>
+                    <div class="item">
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <h1>facebook</h1>
+                    </div>
+                    <div class="item">
+                        <a href="#"><i class="bi bi-twitter"></i></a>
+                        <h1>twiiter</h1>
+                    </div>
+                    <div class="item">
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                        <h1>instagram</h1>
+                    </div>
+                </div>
+                <div class="cont1-footer">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2226.1379939546814!2d116.59690429468495!3d-8.552066286259645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dcc49b257837dc1%3A0x40d2bb0032b501a4!2sBendungan%20Senang!5e0!3m2!1sid!2sid!4v1748349298156!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+            <div class="container cont2 block">
+                <form class="row g-3">
+                    <div class="mb-3">
+                        <label for="inputEmail4" class="form-label">Nama</label>
+                        <input type="email" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label for="inputEmail4" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="inputEmail4">
+                    </div>
+                    <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Pesan</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <div class="col-12 text-center" >
+                        <button type="submit" class="btn btn-danger">Kirim</button>
+                    </div>
+    </form>
+            </div>
+        </div>
+
+    </div>
+</section>

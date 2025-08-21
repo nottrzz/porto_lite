@@ -1,9 +1,9 @@
 
 
-/* tampilan mobile */
+/* tampilan mobile
 @media (max-width: 576px){
 
-}
+} */
 
 /* tampilan tablet */
 @media (max-width: 557px) and (max-width: 992px){
@@ -13,4 +13,105 @@
 /* tampilan desktop ke atas */
 @media (max-width: 993px){
     
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 14px; /* Tulisan lebih kecil */
+    overflow-x: hidden;
+  }
+
+  .sisi-kiri{
+      /* background-color: white; */
+      width: 100%;
+      height: 40vh;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      gap: 10px;
+      display: none;
+  }
+
+   .sisi-kiri .s1{
+    font-size: 2.4rem;
+   }
+
+  .sisi-kiri h1{
+    font-size: 2rem;
+  }
+
+  .container .c-1{
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* display: flex; */
+    justify-content: ;
+    gap: 0px;
+  }
+
+  .sisi-kanan{
+    /* background-color: white; */
+    width: 100%;
+    height: 70vh;
+  }
+
+  .welcome{
+    min-height: 100vh;
+  }
+
+  /* .cont-contact{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+  } */
+
+  .footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    height: 100vh;
+    gap: 10px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .footer1{
+    width: 100%;
+    height: 30vh;
+    gap: 20px;
+   
+  }
+
+  .footer1 h1{
+     font-size: 1rem;
+  }
+
+  .footer1 input{
+    width: 300px;
+  }
+
+  .footer1 .icon-footer i{
+    font-size: 1rem;
+  }
+
+  .footer2{
+    height: 30vh;
+    width: 100%;
+  }
+
+  .footer2 h1{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin-top: 1rem;
+  }
+
+  .footer3 {
+    width: 100%;
+    height: 28vh;
+  }
+
+  .footer3 h1{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+  }
 }
